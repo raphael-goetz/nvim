@@ -10,7 +10,31 @@ return {
 	config = function()
 		local config = require("nvim-treesitter.configs")
 		config.setup({
-			ensure_installed = { "lua", "go", "rust" },
+			ensure_installed = {
+				"json",
+				"toml",
+				"yaml",
+				"markdown",
+				"tsx",
+				"html",
+				"proto",
+				--
+				"typst",
+				"javascript",
+				"typescript",
+				"python",
+				-- JVM
+				"java",
+				"kotlin",
+				"lua",
+				-- Golang
+				"go",
+				"gomod",
+				"gosum",
+				--
+				"c_sharp",
+				"rust"
+			},
 			highlight = { enable = true },
 			indent = { enable = true }
 		})
