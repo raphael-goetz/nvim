@@ -33,7 +33,8 @@ return {
 				"lua_ls",
 				"rust_analyzer",
 				"gopls",
-				"jsonls"
+				"jsonls",
+				"tinymist"
 			},
 			handlers = {
 				function(server)
