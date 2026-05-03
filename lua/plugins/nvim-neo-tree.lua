@@ -33,7 +33,8 @@ return {
 				"gosum",
 				--
 				"c_sharp",
-				"rust"
+				"rust",
+				"ruby"
 			},
 			highlight = { enable = true },
 			indent = { enable = true }

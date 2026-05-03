@@ -33,6 +33,7 @@ return {
 				"lua_ls",
 				"rust_analyzer",
 				"gopls",
+				"ruby_lsp",
 				"jsonls",
 				"tinymist"
 			},
